@@ -1,0 +1,37 @@
+/**
+ * Author 		: Renjith J Ephrem
+ * Email  		: rje49@drexel.edu
+ * Subject		: CS510 - Assignment 1.
+ * Instructor 	: Dr. Christopher Geib
+ * Class Name   : BricksIndexListVO.java
+ *
+ * This is a Virtual Object (VO) file that has the place holders, setters and getters for storing information about the indexes of each brick.
+ * An ArrayList object of type BrickIndexListVO is used to store a list each brick and its current index with respect to the game state.
+ *
+ */
+
+public class BrickIndexListVO {
+
+
+    int brickRowIndex;
+    int brickColumnIndex;
+
+    public int getBrickRowIndex() {
+        return brickRowIndex;
+    }
+
+    public void setBrickRowIndex(int brickRowIndex) {
+        this.brickRowIndex = brickRowIndex;
+    }
+
+    public int getBrickColumnIndex() {
+        return brickColumnIndex;
+    }
+
+    public void setBrickColumnIndex(int brickColumnIndex) {
+        this.brickColumnIndex = brickColumnIndex;
+    }
+
+
+
+}
